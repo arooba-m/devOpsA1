@@ -1,0 +1,30 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Increase padding for a thicker navbar */
+  background-color: #6a0dad; /* Purple background color */
+  color: white;
+  font-family: 'Roboto', sans-serif; /* Use Roboto font */
+  font-weight: bold; /* Make the text bold */
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
