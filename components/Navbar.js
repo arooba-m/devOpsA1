@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css'; 
-import '../fonts.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import "../fonts.css";
 
 const Navbar = () => {
   return (
@@ -18,9 +18,10 @@ const Navbar = () => {
           <li>
             <Link to="/education">Education</Link>
           </li>
-            <li>
-           
-          </li> 
+          <li>
+            <Link to="/certifications">Certification</Link>
+          </li>
+          <li></li>
         </ul>
       </div>
     </nav>
